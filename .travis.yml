@@ -1,5 +1,7 @@
 install:
   - sudo pip install proselint
-
+  - sudo ap-get install npm
+  - sudo npm install -g markdown-link-check
 script: 
   - proselint README.md
+  - ./check_dead_links  
