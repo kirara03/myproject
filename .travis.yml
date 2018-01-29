@@ -4,4 +4,4 @@ install:
   - sudo npm install -g markdown-link-check
 script: 
   - proselint README.md
-  - ./check_dead_links  
+
